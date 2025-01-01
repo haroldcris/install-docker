@@ -22,5 +22,4 @@ sudo adduser "$USERNAME"
 sudo usermod -aG sudo "$USERNAME"
 sudo usermod -aG docker "$USERNAME"
 
-su "$USERNAME"
-echo "All done."
+reboot
